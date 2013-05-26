@@ -1,6 +1,4 @@
-require 'rubygems'
 require 'sinatra'
-require 'Haml'
 require File.join(File.dirname(__FILE__), 'fetcher')
 
 get '/' do
